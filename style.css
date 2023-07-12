@@ -384,8 +384,37 @@ form p{
 .first-single-match{
    line-height:1.5; 
    letter-spacing: 0.1em;
-   
+}
 
+/* seven section code start  */
+
+.seven-section{
+    padding: 100px 0;
+}
+
+.takecare-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-takecare-inbox{
+    width: 100%;
+}
+.single-takecare-inbox img{
+    width: 100%;
+}
+.single-takecare h3{
+    font-size: 30px;
+}
+.single-takecare p{
+    margin: 20px 0;
+}
+.single-takecare ul li{
+    list-style-position: inside;
+    margin: 10px ;
 }
 
 
@@ -476,7 +505,17 @@ form p{
     .first-single-match{
         text-align: center;
     }
+    /* end match projects section works  */
 
+    /* start take care section code  */
+    .takecare-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .single-takecare{
+        margin-bottom: 70px;
+    }
         
 
 }
@@ -550,9 +589,17 @@ form p{
         margin-left: 70px;
         margin-right: 70px;
     }
-    .first-single-match{
-        text-align: center;
-    }
+    /* end match projects section works  */
 
-   
+        /* start take care section code  */
+        .takecare-parent{
+            display: block;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+        .single-takecare{
+            margin-bottom: 80px;
+        }
+           
+    
 }
